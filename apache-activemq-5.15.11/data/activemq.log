@@ -1,0 +1,23 @@
+2020-07-02 01:16:20,448 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@464bee09: startup date [Thu Jul 02 01:16:20 CEST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-07-02 01:16:21,846 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\itachii\Documents\Workspace\FRA_UAS_Java_Group4\Distrb.Sheet3\src\apache-activemq-5.15.11\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-07-02 01:16:22,668 | INFO  | PListStore:[C:\Users\itachii\Documents\Workspace\FRA_UAS_Java_Group4\Distrb.Sheet3\src\apache-activemq-5.15.11\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-07-02 01:16:22,901 | INFO  | Apache ActiveMQ 5.15.11 (localhost, ID:itachi-59475-1593645382760-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-07-02 01:16:22,926 | INFO  | Listening for connections at: tcp://itachi:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-07-02 01:16:22,928 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-07-02 01:16:22,933 | INFO  | Listening for connections at: amqp://itachi:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-07-02 01:16:22,936 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-07-02 01:16:22,946 | INFO  | Listening for connections at: stomp://itachi:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-07-02 01:16:22,950 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-07-02 01:16:22,959 | INFO  | Listening for connections at: mqtt://itachi:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-07-02 01:16:22,964 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-07-02 01:16:22,977 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2020-07-02 01:16:23,063 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2020-07-02 01:16:23,160 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@4b41dd5c{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-07-02 01:16:23,236 | INFO  | Listening for connections at ws://itachi:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-07-02 01:16:23,237 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-07-02 01:16:23,241 | INFO  | Apache ActiveMQ 5.15.11 (localhost, ID:itachi-59475-1593645382760-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-07-02 01:16:23,243 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-07-02 01:16:23,249 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\itachii\Documents\Workspace\FRA_UAS_Java_Group4\Distrb.Sheet3\src\apache-activemq-5.15.11\bin\..\data\kahadb only has 56515 mb of usable space. - resetting to maximum available disk space: 56515 mb | org.apache.activemq.broker.BrokerService | main
+2020-07-02 01:16:24,521 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-07-02 01:16:24,523 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-07-02 01:19:38,480 | WARN  | Transport Connection to: tcp://127.0.0.1:59486 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:59486@61616
